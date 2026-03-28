@@ -54,16 +54,16 @@ const Footer = () => {
               </li>
             </ul>
             <div className="flex items-center gap-3 mt-4">
-              <a href="https://facebook.com/Apex5" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="opacity-70 hover:opacity-100 transition-opacity">
+              <a href="https://www.facebook.com/share/1X3X1oPEko/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="opacity-70 hover:opacity-100 transition-opacity">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="https://instagram.com/Apex5" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="opacity-70 hover:opacity-100 transition-opacity">
+              <a href="https://www.instagram.com/apex5_colchester" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="opacity-70 hover:opacity-100 transition-opacity">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="https://youtube.com/@Apex5" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="opacity-70 hover:opacity-100 transition-opacity">
+              <a href="https://youtube.com/@apex5_colchester" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="opacity-70 hover:opacity-100 transition-opacity">
                 <Youtube className="w-5 h-5" />
               </a>
-              <a href="https://tiktok.com/@Apex5" target="_blank" rel="noopener noreferrer" aria-label="TT – TikTok" className="opacity-70 hover:opacity-100 transition-opacity text-xs font-bold">
+              <a href="https://www.tiktok.com/@apex5582" target="_blank" rel="noopener noreferrer" aria-label="TT – TikTok" className="opacity-70 hover:opacity-100 transition-opacity text-xs font-bold">
                 TT
               </a>
             </div>
