@@ -21,7 +21,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="font-semibold mb-4 text-sm uppercase tracking-wider opacity-70">Services</h4>
+            <h3 className="font-semibold mb-4 text-sm uppercase tracking-wider opacity-70">Services</h3>
             <ul className="space-y-2 text-sm opacity-80">
               <li><Link to="/services" className="hover:opacity-100 transition-opacity">All Services</Link></li>
               <li><Link to="/pricing" className="hover:opacity-100 transition-opacity">Pricing</Link></li>
