@@ -63,7 +63,7 @@ const Footer = () => {
               <a href="https://youtube.com/@Apex5" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="opacity-70 hover:opacity-100 transition-opacity">
                 <Youtube className="w-5 h-5" />
               </a>
-              <a href="https://tiktok.com/@Apex5" target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="opacity-70 hover:opacity-100 transition-opacity text-xs font-bold">
+              <a href="https://tiktok.com/@Apex5" target="_blank" rel="noopener noreferrer" aria-label="TT – TikTok" className="opacity-70 hover:opacity-100 transition-opacity text-xs font-bold">
                 TT
               </a>
             </div>
