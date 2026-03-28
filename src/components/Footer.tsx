@@ -42,7 +42,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h4 className="font-semibold mb-4 text-sm uppercase tracking-wider opacity-70">Get in touch</h4>
+            <h3 className="font-semibold mb-4 text-sm uppercase tracking-wider opacity-70">Get in touch</h3>
             <ul className="space-y-3 text-sm opacity-80">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 shrink-0" />
