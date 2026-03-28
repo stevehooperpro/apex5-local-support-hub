@@ -21,7 +21,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="font-semibold mb-4 text-sm uppercase tracking-wider opacity-70">Services</h4>
+            <h3 className="font-semibold mb-4 text-sm uppercase tracking-wider opacity-70">Services</h3>
             <ul className="space-y-2 text-sm opacity-80">
               <li><Link to="/services" className="hover:opacity-100 transition-opacity">All Services</Link></li>
               <li><Link to="/pricing" className="hover:opacity-100 transition-opacity">Pricing</Link></li>
@@ -31,7 +31,7 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-            <h4 className="font-semibold mb-4 text-sm uppercase tracking-wider opacity-70">Company</h4>
+            <h3 className="font-semibold mb-4 text-sm uppercase tracking-wider opacity-70">Company</h3>
             <ul className="space-y-2 text-sm opacity-80">
               <li><Link to="/about" className="hover:opacity-100 transition-opacity">About</Link></li>
               <li><Link to="/contact" className="hover:opacity-100 transition-opacity">Contact</Link></li>
@@ -42,7 +42,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h4 className="font-semibold mb-4 text-sm uppercase tracking-wider opacity-70">Get in touch</h4>
+            <h3 className="font-semibold mb-4 text-sm uppercase tracking-wider opacity-70">Get in touch</h3>
             <ul className="space-y-3 text-sm opacity-80">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 shrink-0" />
