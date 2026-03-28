@@ -29,14 +29,14 @@ const App = () => (
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/pricing" element={<Pricing />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/areas" element={<Areas />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/privacy" element={<Privacy />} />
-            <Route path="/cookies" element={<Cookies />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/services" element={<Suspense fallback={null}><Services /></Suspense>} />
+            <Route path="/pricing" element={<Suspense fallback={null}><Pricing /></Suspense>} />
+            <Route path="/about" element={<Suspense fallback={null}><About /></Suspense>} />
+            <Route path="/areas" element={<Suspense fallback={null}><Areas /></Suspense>} />
+            <Route path="/contact" element={<Suspense fallback={null}><Contact /></Suspense>} />
+            <Route path="/privacy" element={<Suspense fallback={null}><Privacy /></Suspense>} />
+            <Route path="/cookies" element={<Suspense fallback={null}><Cookies /></Suspense>} />
+            <Route path="*" element={<Suspense fallback={null}><NotFound /></Suspense>} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
