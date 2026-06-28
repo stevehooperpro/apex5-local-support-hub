@@ -313,7 +313,7 @@ const Index = () => {
         <div className="container text-center max-w-2xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Covering Colchester & nearby areas</h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
-            Apex5 provides on-site tech support within approximately 5 miles of central Colchester. That includes most of the town and nearby villages. Further afield? Just ask — we're happy to quote.
+            Apex5 provides on-site tech support within approximately 5 miles of central Colchester. That includes most of the town and nearby villages. Further afield? Just ask - we're happy to quote.
           </p>
           <Button variant="outline" asChild>
             <Link to="/areas">See areas covered</Link>
