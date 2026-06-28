@@ -59,7 +59,7 @@ const audiences = [
 
 const services = [
   { icon: Monitor, title: "Slow PC & laptop clean-up", desc: "Speed things up and get your machine running properly again." },
-  { icon: HardDrive, title: "New device setup", desc: "Laptops, tablets, phones — set up and ready to use from the start." },
+  { icon: HardDrive, title: "New device setup", desc: "Laptops, tablets, phones set up and ready to use from the start." },
   { icon: Printer, title: "Printer, Wi-Fi & home tech", desc: "Get your devices talking to each other without the headaches." },
   { icon: ShieldCheck, title: "Virus & malware checks", desc: "Find and remove threats, then lock things down to keep you safe." },
   { icon: HardDrive, title: "Data transfer & migration", desc: "Move your files, photos and settings to a new device safely." },
