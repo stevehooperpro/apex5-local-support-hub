@@ -115,7 +115,7 @@ const Index = () => {
             name: "Apex5",
             description: "Friendly local tech support in Colchester, Essex. Helping with laptops, Wi-Fi, printers, device setup and everyday tech problems.",
             url: "https://apex5.co.uk",
-            email: "info@apex5.co.uk",
+            email: "apex5colchester@gmail.com",
             areaServed: { "@type": "City", name: "Colchester" },
             address: { "@type": "PostalAddress", addressLocality: "Colchester", addressRegion: "Essex", addressCountry: "GB" },
             priceRange: "£",
@@ -352,7 +352,7 @@ const Index = () => {
               <Link to="/contact">Get in touch</Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <a href="mailto:info@apex5.co.uk">Email us</a>
+              <a href="mailto:apex5colchester@gmail.com">Email us</a>
             </Button>
           </div>
         </div>

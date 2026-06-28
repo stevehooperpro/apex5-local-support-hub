@@ -77,8 +77,8 @@ const Contact = () => {
               <div className="bg-soft-lilac rounded-lg p-5">
                 <Mail className="w-6 h-6 text-apex-purple mb-3" />
                 <h3 className="font-semibold mb-1">Email</h3>
-                <a href="mailto:info@apex5.co.uk" className="text-sm text-apex-purple hover:underline">
-                  info@apex5.co.uk
+                <a href="mailto:apex5colchester@gmail.com" className="text-sm text-apex-purple hover:underline">
+                  apex5colchester@gmail.com
                 </a>
               </div>
 
