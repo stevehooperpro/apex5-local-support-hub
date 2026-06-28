@@ -238,7 +238,7 @@ const Index = () => {
             {[
               { step: "1", title: "Get in touch", desc: "Drop a message, email or WhatsApp." },
               { step: "2", title: "Book your visit", desc: "We'll arrange a time that works for you." },
-              { step: "3", title: "Problem sorted", desc: "On-site or remote — we'll get it fixed." },
+              { step: "3", title: "Problem sorted", desc: "On-site or remote - we'll get it fixed." },
             ].map((s) => (
               <div key={s.step} className="flex flex-col items-center">
                 <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-apex-purple text-primary-foreground font-bold text-lg mb-4">
