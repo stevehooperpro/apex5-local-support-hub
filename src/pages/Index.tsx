@@ -29,7 +29,7 @@ import {
 
 const trustPoints = [
   { icon: MapPin, text: "Local Colchester support" },
-  { icon: MessageSquare, text: "Plain English, no jargon" },
+  { icon: MessageSquare, text: "Plain English, no tech-speak" },
   { icon: PoundSterling, text: "Fair, upfront pricing" },
   { icon: Monitor, text: "On-site and remote help" },
 ];
