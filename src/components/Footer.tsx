@@ -46,7 +46,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm opacity-80">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 shrink-0" />
-                <a href="mailto:info@apex5.co.uk" className="hover:opacity-100 transition-opacity">info@apex5.co.uk</a>
+                <a href="mailto:apex5colchester@gmail.com" className="hover:opacity-100 transition-opacity">apex5colchester@gmail.com</a>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 shrink-0" />

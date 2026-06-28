@@ -32,7 +32,7 @@ const Cookies = () => {
             <p>You can control and delete cookies through your browser settings. Blocking all cookies may affect how the website functions.</p>
 
             <h2 className="text-lg font-bold text-foreground">Contact</h2>
-            <p>If you have questions about our use of cookies, contact us at info@apex5.co.uk.</p>
+            <p>If you have questions about our use of cookies, contact us at apex5colchester@gmail.com.</p>
           </div>
         </div>
       </section>
