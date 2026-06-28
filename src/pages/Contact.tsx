@@ -55,8 +55,8 @@ const Contact = () => {
   return (
     <Layout>
       <SEOHead
-        title="Contact Apex5 — Get Tech Help in Colchester"
-        description="Get in touch with Apex5 for friendly, local tech support in Colchester. Email, WhatsApp or fill in the form — we aim to reply quickly."
+        title="Contact Apex5 - Get Tech Help in Colchester"
+        description="Get in touch with Apex5 for friendly, local tech support in Colchester. Email, WhatsApp or fill in the form - we aim to reply quickly."
         path="/contact"
       />
 
@@ -105,7 +105,7 @@ const Contact = () => {
                 <Clock className="w-6 h-6 text-apex-purple mb-3" />
                 <h3 className="font-semibold mb-1">Response time</h3>
                 <p className="text-sm text-muted-foreground">
-                  Apex5 aims to reply quickly — usually within a few hours during working days.
+                  Apex5 aims to reply quickly - usually within a few hours during working days.
                 </p>
               </div>
             </div>

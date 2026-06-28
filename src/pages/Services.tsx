@@ -46,7 +46,7 @@ const services = [
     forWho: "Home users, families, small offices",
     problems: "Printer won't connect, Wi-Fi dead spots, smart home struggles",
     price: "£35–£55",
-    desc: "Get your printer, router, smart devices and home tech talking to each other — without the headaches.",
+    desc: "Get your printer, router, smart devices and home tech talking to each other without the headaches.",
   },
   {
     icon: HardDrive,
@@ -62,7 +62,7 @@ const services = [
     forWho: "Older residents, anyone new to tech",
     problems: "Not sure how to use a tablet, confused by apps, worried about scams",
     price: "£35",
-    desc: "A relaxed one-to-one session to build your confidence with tech. We'll cover whatever you need at your pace — from emails to video calls.",
+    desc: "A relaxed one-to-one session to build your confidence with tech. We'll cover whatever you need at your pace - from emails to video calls.",
   },
   {
     icon: GraduationCap,
@@ -70,7 +70,7 @@ const services = [
     forWho: "Students heading to uni or college",
     problems: "Slow laptop, outdated software, battery issues, storage full",
     price: "£30",
-    desc: "A full health check for student devices — clean-up, updates, storage check and tips to keep things running smoothly all year.",
+    desc: "A full health check for student devices - clean-up, updates, storage check and tips to keep things running smoothly all year.",
   },
   {
     icon: Gamepad2,
@@ -86,7 +86,7 @@ const services = [
     forWho: "Small local businesses",
     problems: "Not sure if your setup is secure, efficient or reliable",
     price: "Free 30-min intro",
-    desc: "A straightforward review of your business tech — Wi-Fi, devices, backups and security. We'll flag anything that needs attention.",
+    desc: "A straightforward review of your business tech - Wi-Fi, devices, backups and security. We'll flag anything that needs attention.",
   },
 ];
 
@@ -94,7 +94,7 @@ const Services = () => {
   return (
     <Layout>
       <SEOHead
-        title="Services — Apex5 Tech Support Colchester"
+        title="Services - Apex5 Tech Support Colchester"
         description="Computer help, Wi-Fi fixes, device setup, virus removal and more. See the full list of tech support services from Apex5 in Colchester."
         path="/services"
       />
@@ -103,7 +103,7 @@ const Services = () => {
         <div className="container max-w-2xl text-center">
           <h1 className="text-3xl md:text-4xl font-extrabold mb-4">Our services</h1>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Straightforward tech help in Colchester. Each service is explained in plain English with clear pricing — no surprises.
+            Straightforward tech help in Colchester. Each service is explained in plain English with clear pricing - no surprises.
           </p>
         </div>
       </section>

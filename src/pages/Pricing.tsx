@@ -45,7 +45,7 @@ const Pricing = () => {
   return (
     <Layout>
       <SEOHead
-        title="Pricing — Apex5 Tech Support Colchester"
+        title="Pricing - Apex5 Tech Support Colchester"
         description="Clear, fair pricing for tech support in Colchester. On-site call-outs from £35, remote support from £25. No hidden fees."
         path="/pricing"
       />
@@ -119,7 +119,7 @@ const Pricing = () => {
             <div className="flex items-start gap-3">
               <Info className="w-5 h-5 text-apex-purple shrink-0 mt-0.5" />
               <div className="text-sm text-muted-foreground space-y-2">
-                <p>Some jobs may require a custom quote — we'll always discuss this with you first.</p>
+                <p>Some jobs may require a custom quote - we'll always discuss this with you first.</p>
                 <p>Parts are not included in service prices unless stated.</p>
                 <p>We recommend backing up your important files before any work begins.</p>
               </div>

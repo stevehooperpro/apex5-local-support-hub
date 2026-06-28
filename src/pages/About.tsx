@@ -8,7 +8,7 @@ const About = () => {
   return (
     <Layout>
       <SEOHead
-        title="About Apex5 — Local Tech Support in Colchester"
+        title="About Apex5 - Local Tech Support in Colchester"
         description="Apex5 is a local one-person IT support business in Colchester, Essex. Built around plain English, fair pricing and genuinely friendly help."
         path="/about"
       />
@@ -30,10 +30,10 @@ const About = () => {
               Too many people in Colchester deal with tech stress in silence. A laptop that takes forever to start. A printer that refuses to connect. A new tablet still in its box because the setup feels overwhelming.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Apex5 was started to fix that. Not with jargon-filled explanations or eye-watering invoices — but with straightforward, friendly help that makes tech less stressful.
+              Apex5 was started to fix that. Not with confusing explanations or eye-watering invoices, but with straightforward, friendly help that makes tech less stressful.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Whether you're a retiree learning to video-call your grandchildren, a student with a sluggish laptop, or a small business owner who just needs things to work — Apex5 is here to help. Locally, fairly and honestly.
+              Whether you're a retiree learning to video-call your grandchildren, a student with a sluggish laptop, or a small business owner who just needs things to work - Apex5 is here to help. Locally, fairly and honestly.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
@@ -56,7 +56,7 @@ const About = () => {
               Apex5 is a new business, and that's something to be upfront about. There are no invented client logos on this page, no made-up testimonials and no inflated claims. What you get is real: a qualified, friendly local tech person who turns up, sorts the problem and explains everything properly.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              As Apex5 grows, this page will too — with real reviews, real stories and a track record built one happy customer at a time.
+              As Apex5 grows, this page will too - with real reviews, real stories and a track record built one happy customer at a time.
             </p>
           </div>
 
