@@ -29,7 +29,7 @@ import {
 
 const trustPoints = [
   { icon: MapPin, text: "Local Colchester support" },
-  { icon: MessageSquare, text: "Plain English, no jargon" },
+  { icon: MessageSquare, text: "Plain English, no tech-speak" },
   { icon: PoundSterling, text: "Fair, upfront pricing" },
   { icon: Monitor, text: "On-site and remote help" },
 ];
@@ -38,12 +38,12 @@ const audiences = [
   {
     icon: Heart,
     title: "Older residents & families",
-    desc: "Patient, friendly help with devices, emails, video calls and everyday tech. No rushing, no jargon.",
+    desc: "Patient, friendly help with devices, emails, video calls and everyday tech. No rushing, no confusing language.",
   },
   {
     icon: Users,
     title: "Home users",
-    desc: "Slow laptops, dodgy Wi-Fi, printer nightmares — sorted quickly so you can get on with your day.",
+    desc: "Slow laptops, dodgy Wi-Fi, printer nightmares sorted quickly so you can get on with your day.",
   },
   {
     icon: GraduationCap,
@@ -53,20 +53,20 @@ const audiences = [
   {
     icon: Briefcase,
     title: "Small local businesses",
-    desc: "IT health checks, network setup and ongoing support — without the big-company price tag.",
+    desc: "IT health checks, network setup and ongoing support without the big-company price tag.",
   },
 ];
 
 const services = [
   { icon: Monitor, title: "Slow PC & laptop clean-up", desc: "Speed things up and get your machine running properly again." },
-  { icon: HardDrive, title: "New device setup", desc: "Laptops, tablets, phones — set up and ready to use from the start." },
+  { icon: HardDrive, title: "New device setup", desc: "Laptops, tablets, phones set up and ready to use from the start." },
   { icon: Printer, title: "Printer, Wi-Fi & home tech", desc: "Get your devices talking to each other without the headaches." },
   { icon: ShieldCheck, title: "Virus & malware checks", desc: "Find and remove threats, then lock things down to keep you safe." },
   { icon: HardDrive, title: "Data transfer & migration", desc: "Move your files, photos and settings to a new device safely." },
   { icon: Heart, title: "Digital confidence sessions", desc: "Relaxed one-to-one sessions to build your confidence with tech." },
   { icon: GraduationCap, title: "Student device support", desc: "Tune-ups and health checks for laptops and devices students rely on." },
   { icon: Gamepad2, title: "Gaming optimisation", desc: "Better FPS, lower latency and a smoother gaming experience." },
-  { icon: Briefcase, title: "Business IT health check", desc: "A straightforward review of your tech setup — free 30-minute intro." },
+  { icon: Briefcase, title: "Business IT health check", desc: "A straightforward review of your tech setup. Free 30-minute intro." },
 ];
 
 const pricingSnapshot = [
@@ -85,12 +85,12 @@ const monthlyPlans = [
 ];
 
 const faqs = [
-  { q: "What areas do you cover?", a: "Apex5 covers Colchester and nearby surrounding areas — roughly within 5 miles or 30 minutes of central Colchester. If you're further out, get in touch and we'll see what we can do." },
+  { q: "What areas do you cover?", a: "Apex5 covers Colchester and nearby surrounding areas. That's roughly within 5 miles or 30 minutes of central Colchester. If you're further out, get in touch and we'll see what we can do." },
   { q: "Do you come to my home?", a: "Yes! On-site home visits are what Apex5 is all about. We come to you, sort the problem, and explain everything in plain English." },
   { q: "Do you offer remote support?", a: "Absolutely. For simpler issues, remote support is a quick and affordable option. We connect securely to your device and fix things without needing to visit." },
   { q: "What do you charge for a call-out?", a: "On-site call-outs start at £35 for the first 30 minutes. You'll always know the cost before we start." },
-  { q: "Can you help older people who aren't confident with tech?", a: "That's one of the things Apex5 does best. Patient, friendly, jargon-free help at your pace. No question is too basic." },
-  { q: "Can you help with gaming PCs and student laptops?", a: "Yes — from gaming optimisation and performance tuning to student device MOTs and setup help." },
+  { q: "Can you help older people who aren't confident with tech?", a: "That's one of the things Apex5 does best. Patient, friendly, tech-speak-free help at your pace. No question is too basic." },
+  { q: "Can you help with gaming PCs and student laptops?", a: "Yes - from gaming optimisation and performance tuning to student device MOTs and setup help." },
   { q: "What payment methods do you accept?", a: "Bank transfer and cash. Card payments coming soon." },
   { q: "What if my device needs parts?", a: "We'll let you know upfront. Parts are charged separately at cost and we'll always explain before ordering anything." },
   { q: "Do I need to back up my files first?", a: "We always recommend backing up important files before any work. Apex5 takes care, but it's your safety net too." },
@@ -100,8 +100,8 @@ const Index = () => {
   return (
     <Layout>
       <SEOHead
-        title="Apex5 — Friendly Local Tech Support in Colchester"
-        description="Apex5 provides friendly, affordable tech support in Colchester. Slow laptops, Wi-Fi issues, device setup, printer help and more — in plain English, at fair prices."
+        title="Apex5 - Friendly Local Tech Support in Colchester"
+        description="Apex5 provides friendly, affordable tech support in Colchester. Slow laptops, Wi-Fi issues, device setup, printer help and more - in plain English, at fair prices."
         path="/"
       />
 
@@ -134,7 +134,7 @@ const Index = () => {
               Friendly local tech support in Colchester
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-xl">
-              Apex5 helps with slow laptops, Wi-Fi issues, device setup, printer headaches and everyday tech problems — without the jargon.
+              Apex5 helps with slow laptops, Wi-Fi issues, device setup, printer headaches and everyday tech problems, without the confusing language.
             </p>
             <div className="flex flex-wrap gap-3">
               <Button size="lg" asChild>
@@ -214,9 +214,9 @@ const Index = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
             {[
               { title: "Local, not faceless", text: "A real person in Colchester who turns up, explains things clearly and actually cares." },
-              { title: "Plain English", text: "No jargon, no tech-speak. Just clear, honest explanations you can follow." },
+              { title: "Plain English", text: "No tech-speak, no confusing language. Just clear, honest explanations you can follow." },
               { title: "Fair pricing", text: "You'll always know what you're paying before any work starts. No nasty surprises." },
-              { title: "Friendly support", text: "Patient, approachable and happy to answer questions — no matter how basic." },
+              { title: "Friendly support", text: "Patient, approachable and happy to answer questions, no matter how basic." },
             ].map((item) => (
               <div key={item.title} className="flex gap-3">
                 <CheckCircle className="w-5 h-5 text-apex-purple mt-1 shrink-0" />
@@ -238,7 +238,7 @@ const Index = () => {
             {[
               { step: "1", title: "Get in touch", desc: "Drop a message, email or WhatsApp." },
               { step: "2", title: "Book your visit", desc: "We'll arrange a time that works for you." },
-              { step: "3", title: "Problem sorted", desc: "On-site or remote — we'll get it fixed." },
+              { step: "3", title: "Problem sorted", desc: "On-site or remote - we'll get it fixed." },
             ].map((s) => (
               <div key={s.step} className="flex flex-col items-center">
                 <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-apex-purple text-primary-foreground font-bold text-lg mb-4">
@@ -313,7 +313,7 @@ const Index = () => {
         <div className="container text-center max-w-2xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Covering Colchester & nearby areas</h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
-            Apex5 provides on-site tech support within approximately 5 miles of central Colchester. That includes most of the town and nearby villages. Further afield? Just ask — we're happy to quote.
+            Apex5 provides on-site tech support within approximately 5 miles of central Colchester. That includes most of the town and nearby villages. Further afield? Just ask - we're happy to quote.
           </p>
           <Button variant="outline" asChild>
             <Link to="/areas">See areas covered</Link>
@@ -345,7 +345,7 @@ const Index = () => {
         <div className="container text-center max-w-xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Need a hand with tech?</h2>
           <p className="text-muted-foreground mb-8 leading-relaxed">
-            Whether it's a slow laptop, a Wi-Fi nightmare or just a quick question — Apex5 is here to help. Get in touch today.
+            Whether it's a slow laptop, a Wi-Fi nightmare or just a quick question - Apex5 is here to help. Get in touch today.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
             <Button size="lg" asChild>

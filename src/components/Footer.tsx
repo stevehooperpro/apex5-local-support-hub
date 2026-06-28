@@ -15,7 +15,7 @@ const Footer = () => {
               <span>Apex5</span>
             </Link>
             <p className="text-sm opacity-80 leading-relaxed">
-              Friendly local tech support in Colchester. Making devices, Wi-Fi and everyday tech less stressful — in plain English.
+              Friendly local tech support in Colchester. Making devices, Wi-Fi and everyday tech less stressful - in plain English.
             </p>
           </div>
 

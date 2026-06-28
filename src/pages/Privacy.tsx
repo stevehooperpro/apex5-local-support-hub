@@ -5,7 +5,7 @@ const Privacy = () => {
   return (
     <Layout>
       <SEOHead
-        title="Privacy Policy — Apex5"
+        title="Privacy Policy - Apex5"
         description="Apex5 privacy policy. How we collect, use and protect your personal information."
         path="/privacy"
       />

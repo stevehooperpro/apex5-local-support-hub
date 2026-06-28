@@ -5,7 +5,7 @@ const Cookies = () => {
   return (
     <Layout>
       <SEOHead
-        title="Cookie Policy — Apex5"
+        title="Cookie Policy - Apex5"
         description="Apex5 cookie policy. How we use cookies on our website."
         path="/cookies"
       />

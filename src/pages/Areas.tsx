@@ -23,7 +23,7 @@ const Areas = () => {
   return (
     <Layout>
       <SEOHead
-        title="Areas Covered — Apex5 Tech Support Colchester & Nearby"
+        title="Areas Covered - Apex5 Tech Support Colchester & Nearby"
         description="Apex5 provides on-site tech support in Colchester and nearby areas in Essex. Home visits, Wi-Fi help, laptop support and more within a 5-mile radius."
         path="/areas"
       />
@@ -62,7 +62,7 @@ const Areas = () => {
           <div className="bg-soft-lilac rounded-lg p-6 mb-8">
             <h3 className="font-semibold mb-2">Outside this area?</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              If you're a bit further out, don't worry — just get in touch and Apex5 will let you know availability and any additional travel costs. Remote support is also available wherever you are.
+              If you're a bit further out, don't worry - just get in touch and Apex5 will let you know availability and any additional travel costs. Remote support is also available wherever you are.
             </p>
           </div>
 
