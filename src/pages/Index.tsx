@@ -100,8 +100,8 @@ const Index = () => {
   return (
     <Layout>
       <SEOHead
-        title="Apex5 — Friendly Local Tech Support in Colchester"
-        description="Apex5 provides friendly, affordable tech support in Colchester. Slow laptops, Wi-Fi issues, device setup, printer help and more — in plain English, at fair prices."
+        title="Apex5 - Friendly Local Tech Support in Colchester"
+        description="Apex5 provides friendly, affordable tech support in Colchester. Slow laptops, Wi-Fi issues, device setup, printer help and more - in plain English, at fair prices."
         path="/"
       />
 
