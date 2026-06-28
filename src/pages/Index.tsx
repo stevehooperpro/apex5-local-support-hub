@@ -214,7 +214,7 @@ const Index = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
             {[
               { title: "Local, not faceless", text: "A real person in Colchester who turns up, explains things clearly and actually cares." },
-              { title: "Plain English", text: "No jargon, no tech-speak. Just clear, honest explanations you can follow." },
+              { title: "Plain English", text: "No tech-speak, no confusing language. Just clear, honest explanations you can follow." },
               { title: "Fair pricing", text: "You'll always know what you're paying before any work starts. No nasty surprises." },
               { title: "Friendly support", text: "Patient, approachable and happy to answer questions — no matter how basic." },
             ].map((item) => (
