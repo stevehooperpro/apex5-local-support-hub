@@ -134,7 +134,7 @@ const Index = () => {
               Friendly local tech support in Colchester
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-xl">
-              Apex5 helps with slow laptops, Wi-Fi issues, device setup, printer headaches and everyday tech problems — without the jargon.
+              Apex5 helps with slow laptops, Wi-Fi issues, device setup, printer headaches and everyday tech problems, without the confusing language.
             </p>
             <div className="flex flex-wrap gap-3">
               <Button size="lg" asChild>
