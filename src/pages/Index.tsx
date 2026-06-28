@@ -53,7 +53,7 @@ const audiences = [
   {
     icon: Briefcase,
     title: "Small local businesses",
-    desc: "IT health checks, network setup and ongoing support — without the big-company price tag.",
+    desc: "IT health checks, network setup and ongoing support without the big-company price tag.",
   },
 ];
 
