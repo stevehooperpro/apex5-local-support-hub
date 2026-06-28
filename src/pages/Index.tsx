@@ -66,7 +66,7 @@ const services = [
   { icon: Heart, title: "Digital confidence sessions", desc: "Relaxed one-to-one sessions to build your confidence with tech." },
   { icon: GraduationCap, title: "Student device support", desc: "Tune-ups and health checks for laptops and devices students rely on." },
   { icon: Gamepad2, title: "Gaming optimisation", desc: "Better FPS, lower latency and a smoother gaming experience." },
-  { icon: Briefcase, title: "Business IT health check", desc: "A straightforward review of your tech setup — free 30-minute intro." },
+  { icon: Briefcase, title: "Business IT health check", desc: "A straightforward review of your tech setup. Free 30-minute intro." },
 ];
 
 const pricingSnapshot = [
