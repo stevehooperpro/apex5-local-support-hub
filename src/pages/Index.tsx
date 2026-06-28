@@ -216,7 +216,7 @@ const Index = () => {
               { title: "Local, not faceless", text: "A real person in Colchester who turns up, explains things clearly and actually cares." },
               { title: "Plain English", text: "No tech-speak, no confusing language. Just clear, honest explanations you can follow." },
               { title: "Fair pricing", text: "You'll always know what you're paying before any work starts. No nasty surprises." },
-              { title: "Friendly support", text: "Patient, approachable and happy to answer questions — no matter how basic." },
+              { title: "Friendly support", text: "Patient, approachable and happy to answer questions, no matter how basic." },
             ].map((item) => (
               <div key={item.title} className="flex gap-3">
                 <CheckCircle className="w-5 h-5 text-apex-purple mt-1 shrink-0" />
