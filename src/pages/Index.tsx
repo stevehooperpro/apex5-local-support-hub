@@ -85,7 +85,7 @@ const monthlyPlans = [
 ];
 
 const faqs = [
-  { q: "What areas do you cover?", a: "Apex5 covers Colchester and nearby surrounding areas — roughly within 5 miles or 30 minutes of central Colchester. If you're further out, get in touch and we'll see what we can do." },
+  { q: "What areas do you cover?", a: "Apex5 covers Colchester and nearby surrounding areas. That's roughly within 5 miles or 30 minutes of central Colchester. If you're further out, get in touch and we'll see what we can do." },
   { q: "Do you come to my home?", a: "Yes! On-site home visits are what Apex5 is all about. We come to you, sort the problem, and explain everything in plain English." },
   { q: "Do you offer remote support?", a: "Absolutely. For simpler issues, remote support is a quick and affordable option. We connect securely to your device and fix things without needing to visit." },
   { q: "What do you charge for a call-out?", a: "On-site call-outs start at £35 for the first 30 minutes. You'll always know the cost before we start." },
