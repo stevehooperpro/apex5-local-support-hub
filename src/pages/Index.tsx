@@ -43,7 +43,7 @@ const audiences = [
   {
     icon: Users,
     title: "Home users",
-    desc: "Slow laptops, dodgy Wi-Fi, printer nightmares — sorted quickly so you can get on with your day.",
+    desc: "Slow laptops, dodgy Wi-Fi, printer nightmares sorted quickly so you can get on with your day.",
   },
   {
     icon: GraduationCap,
