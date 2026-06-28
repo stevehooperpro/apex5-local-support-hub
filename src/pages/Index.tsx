@@ -345,7 +345,7 @@ const Index = () => {
         <div className="container text-center max-w-xl">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Need a hand with tech?</h2>
           <p className="text-muted-foreground mb-8 leading-relaxed">
-            Whether it's a slow laptop, a Wi-Fi nightmare or just a quick question — Apex5 is here to help. Get in touch today.
+            Whether it's a slow laptop, a Wi-Fi nightmare or just a quick question - Apex5 is here to help. Get in touch today.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
             <Button size="lg" asChild>
