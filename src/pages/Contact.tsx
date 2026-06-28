@@ -43,7 +43,7 @@ const Contact = () => {
       return;
     }
     setSubmitting(true);
-    // Placeholder — connect to backend later
+    // Placeholder - connect to backend later
     setTimeout(() => {
       setSubmitting(false);
       toast.success("Thanks! Apex5 will be in touch soon.");
