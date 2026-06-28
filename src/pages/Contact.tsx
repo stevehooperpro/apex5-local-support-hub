@@ -86,7 +86,7 @@ const Contact = () => {
                 <MessageCircle className="w-6 h-6 text-apex-purple mb-3" />
                 <h3 className="font-semibold mb-1">WhatsApp</h3>
                 <a
-                  href="https://wa.me/447000000000?text=Hi%20Apex5%2C%20I%20need%20some%20tech%20help!"
+                  href="https://wa.me/447504006887?text=Hi%20Apex5%2C%20I%20need%20some%20tech%20help!"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-apex-purple hover:underline"
