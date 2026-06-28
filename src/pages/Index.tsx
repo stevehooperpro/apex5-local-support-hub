@@ -38,7 +38,7 @@ const audiences = [
   {
     icon: Heart,
     title: "Older residents & families",
-    desc: "Patient, friendly help with devices, emails, video calls and everyday tech. No rushing, no jargon.",
+    desc: "Patient, friendly help with devices, emails, video calls and everyday tech. No rushing, no confusing language.",
   },
   {
     icon: Users,
