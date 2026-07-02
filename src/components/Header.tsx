@@ -50,7 +50,7 @@ const Header = () => {
               className={`px-3 py-2 rounded-md text-sm font-medium transition-colors hover:text-primary hover:bg-soft-lilac ${
                 location.pathname === link.to
                   ? "text-primary bg-soft-lilac"
-                  : "text-foreground"
+                  : "text-deep-purple"
               }`}
             >
               {link.label}
@@ -85,7 +85,7 @@ const Header = () => {
                 className={`px-4 py-3 rounded-md text-sm font-medium transition-colors ${
                   location.pathname === link.to
                     ? "text-primary bg-soft-lilac"
-                    : "text-foreground hover:bg-soft-lilac"
+                    : "text-deep-purple hover:bg-soft-lilac"
                 }`}
               >
                 {link.label}
