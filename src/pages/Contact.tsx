@@ -65,16 +65,40 @@ const Contact = () => {
     }
 
     const subject = `Apex5 enquiry from ${data.name} - ${data.service}`;
+    const date = new Date().toLocaleString("en-GB", {
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+
     const body = [
-      `Name: ${data.name}`,
-      `Email: ${data.email}`,
-      `Phone: ${data.phone || "Not provided"}`,
+      "APEX5 - NEW ENQUIRY",
+      "====================",
+      "",
+      `Enquiry from: ${data.name}`,
+      `Date: ${date}`,
+      "",
+      "CONTACT DETAILS",
+      "---------------",
+      `Name:    ${data.name}`,
+      `Email:   ${data.email}`,
+      `Phone:   ${data.phone || "Not provided"}`,
       `Postcode: ${data.postcode}`,
-      `Service needed: ${data.service}`,
+      "",
+      "ENQUIRY DETAILS",
+      "---------------",
+      `Service needed:          ${data.service}`,
       `Preferred contact method: ${data.preferredContact || "No preference"}`,
       "",
-      "Message:",
+      "MESSAGE",
+      "-------",
       data.message,
+      "",
+      "---",
+      "Sent via the Apex5 website contact form.",
+      "https://apex5.co.uk",
     ].join("\n");
 
     window.location.href = `mailto:${RECIPIENT}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
