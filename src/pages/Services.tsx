@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
@@ -17,6 +18,7 @@ import {
 
 const services = [
   {
+    id: "slow-pc-laptop-cleanup",
     icon: Monitor,
     title: "Slow PC & laptop clean-up",
     forWho: "Home users, students, anyone with a sluggish machine",
@@ -25,6 +27,7 @@ const services = [
     desc: "We'll clean up your system, remove junk, update software and get your machine running like it should. No factory reset needed in most cases.",
   },
   {
+    id: "virus-malware-checks",
     icon: ShieldCheck,
     title: "Virus & malware checks",
     forWho: "Anyone worried about security or pop-ups",
@@ -33,6 +36,7 @@ const services = [
     desc: "A thorough scan, clean-up and protection check to keep your data safe and your device secure.",
   },
   {
+    id: "new-device-setup",
     icon: HardDrive,
     title: "New laptop or PC setup",
     forWho: "Anyone who's just bought a new device",
@@ -41,6 +45,7 @@ const services = [
     desc: "We'll set up your new device, transfer your files, install your apps and make sure everything is ready to use from day one.",
   },
   {
+    id: "printer-wifi-setup",
     icon: Printer,
     title: "Printer, Wi-Fi & device setup",
     forWho: "Home users, families, small offices",
@@ -49,6 +54,7 @@ const services = [
     desc: "Get your printer, router, smart devices and home tech talking to each other without the headaches.",
   },
   {
+    id: "data-transfer-migration",
     icon: HardDrive,
     title: "Data transfer & migration",
     forWho: "Anyone switching devices or upgrading",
@@ -57,6 +63,7 @@ const services = [
     desc: "We'll safely move your files, photos, bookmarks and settings to your new device so nothing gets left behind.",
   },
   {
+    id: "digital-confidence",
     icon: Heart,
     title: "Digital confidence session",
     forWho: "Older residents, anyone new to tech",
@@ -65,6 +72,7 @@ const services = [
     desc: "A relaxed one-to-one session to build your confidence with tech. We'll cover whatever you need at your pace - from emails to video calls.",
   },
   {
+    id: "student-device-support",
     icon: GraduationCap,
     title: "Student device MOT",
     forWho: "Students heading to uni or college",
@@ -73,6 +81,7 @@ const services = [
     desc: "A full health check for student devices - clean-up, updates, storage check and tips to keep things running smoothly all year.",
   },
   {
+    id: "gaming-optimisation",
     icon: Gamepad2,
     title: "Gaming optimisation",
     forWho: "Gamers wanting better performance",
@@ -81,6 +90,7 @@ const services = [
     desc: "We'll tune your PC or console setup for better frame rates, lower latency and a smoother gaming experience overall.",
   },
   {
+    id: "business-it-health-check",
     icon: Briefcase,
     title: "Business IT health check",
     forWho: "Small local businesses",
@@ -91,6 +101,18 @@ const services = [
 ];
 
 const Services = () => {
+  useEffect(() => {
+    const hash = window.location.hash.replace("#", "");
+    if (hash) {
+      const element = document.getElementById(hash);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 100);
+      }
+    }
+  }, []);
+
   return (
     <Layout>
       <SEOHead
@@ -112,7 +134,7 @@ const Services = () => {
         <div className="container">
           <div className="space-y-8 max-w-3xl mx-auto">
             {services.map((s) => (
-              <div key={s.title} className="bg-soft-lilac rounded-lg p-6 md:p-8">
+              <div id={s.id} key={s.id} className="bg-soft-lilac rounded-lg p-6 md:p-8 scroll-mt-24">
                 <div className="flex items-start gap-4">
                   <s.icon className="w-8 h-8 text-apex-purple shrink-0 mt-1" />
                   <div className="flex-1">
