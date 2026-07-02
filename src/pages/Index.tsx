@@ -58,15 +58,15 @@ const audiences = [
 ];
 
 const services = [
-  { icon: Monitor, title: "Slow PC & laptop clean-up", desc: "Speed things up and get your machine running properly again." },
-  { icon: HardDrive, title: "New device setup", desc: "Laptops, tablets, phones set up and ready to use from the start." },
-  { icon: Printer, title: "Printer, Wi-Fi & home tech", desc: "Get your devices talking to each other without the headaches." },
-  { icon: ShieldCheck, title: "Virus & malware checks", desc: "Find and remove threats, then lock things down to keep you safe." },
-  { icon: HardDrive, title: "Data transfer & migration", desc: "Move your files, photos and settings to a new device safely." },
-  { icon: Heart, title: "Digital confidence sessions", desc: "Relaxed one-to-one sessions to build your confidence with tech." },
-  { icon: GraduationCap, title: "Student device support", desc: "Tune-ups and health checks for laptops and devices students rely on." },
-  { icon: Gamepad2, title: "Gaming optimisation", desc: "Better FPS, lower latency and a smoother gaming experience." },
-  { icon: Briefcase, title: "Business IT health check", desc: "A straightforward review of your tech setup. Free 30-minute intro." },
+  { id: "slow-pc-laptop-cleanup", icon: Monitor, title: "Slow PC & laptop clean-up", desc: "Speed things up and get your machine running properly again." },
+  { id: "new-device-setup", icon: HardDrive, title: "New device setup", desc: "Laptops, tablets, phones set up and ready to use from the start." },
+  { id: "printer-wifi-setup", icon: Printer, title: "Printer, Wi-Fi & home tech", desc: "Get your devices talking to each other without the headaches." },
+  { id: "virus-malware-checks", icon: ShieldCheck, title: "Virus & malware checks", desc: "Find and remove threats, then lock things down to keep you safe." },
+  { id: "data-transfer-migration", icon: HardDrive, title: "Data transfer & migration", desc: "Move your files, photos and settings to a new device safely." },
+  { id: "digital-confidence", icon: Heart, title: "Digital confidence sessions", desc: "Relaxed one-to-one sessions to build your confidence with tech." },
+  { id: "student-device-support", icon: GraduationCap, title: "Student device support", desc: "Tune-ups and health checks for laptops and devices students rely on." },
+  { id: "gaming-optimisation", icon: Gamepad2, title: "Gaming optimisation", desc: "Better FPS, lower latency and a smoother gaming experience." },
+  { id: "business-it-health-check", icon: Briefcase, title: "Business IT health check", desc: "A straightforward review of your tech setup. Free 30-minute intro." },
 ];
 
 const pricingSnapshot = [
@@ -190,11 +190,18 @@ const Index = () => {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {services.map((s) => (
-              <div key={s.title} className="bg-background rounded-lg p-6 hover:shadow-md transition-shadow">
-                <s.icon className="w-7 h-7 text-apex-purple mb-3" />
-                <h3 className="font-semibold mb-2">{s.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">{s.desc}</p>
-              </div>
+              <Link
+                key={s.id}
+                to={`/services#${s.id}`}
+                className="group bg-background rounded-lg p-6 border border-transparent hover:border-primary/30 hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+              >
+                <s.icon className="w-7 h-7 text-apex-purple mb-3 group-hover:text-primary transition-colors" />
+                <h3 className="font-semibold mb-2 group-hover:text-primary transition-colors">{s.title}</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed mb-4">{s.desc}</p>
+                <span className="inline-flex items-center text-sm font-medium text-apex-purple group-hover:text-primary transition-colors">
+                  Learn more <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                </span>
+              </Link>
             ))}
           </div>
           <div className="text-center mt-8">
