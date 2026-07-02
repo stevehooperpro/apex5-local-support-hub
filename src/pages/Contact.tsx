@@ -32,9 +32,12 @@ const serviceOptions = [
 
 const contactMethods = ["Email", "Phone", "WhatsApp"];
 
+const RECIPIENT = "apex5colchester@gmail.com";
+
 const Contact = () => {
   const [consent, setConsent] = useState(false);
-  const [submitting, setSubmitting] = useState(false);
+  const [service, setService] = useState("");
+  const [preferredContact, setPreferredContact] = useState("");
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -42,14 +45,45 @@ const Contact = () => {
       toast.error("Please tick the consent checkbox to continue.");
       return;
     }
-    setSubmitting(true);
-    // Placeholder - connect to backend later
-    setTimeout(() => {
-      setSubmitting(false);
-      toast.success("Thanks! Apex5 will be in touch soon.");
-      (e.target as HTMLFormElement).reset();
-      setConsent(false);
-    }, 1000);
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    const data = {
+      name: String(formData.get("name") || "").trim(),
+      email: String(formData.get("email") || "").trim(),
+      phone: String(formData.get("phone") || "").trim(),
+      postcode: String(formData.get("postcode") || "").trim(),
+      service: service,
+      preferredContact: preferredContact,
+      message: String(formData.get("message") || "").trim(),
+    };
+
+    if (!data.name || !data.email || !data.postcode || !data.service || !data.message) {
+      toast.error("Please fill in all required fields.");
+      return;
+    }
+
+    const subject = `Apex5 enquiry from ${data.name} - ${data.service}`;
+    const body = [
+      `Name: ${data.name}`,
+      `Email: ${data.email}`,
+      `Phone: ${data.phone || "Not provided"}`,
+      `Postcode: ${data.postcode}`,
+      `Service needed: ${data.service}`,
+      `Preferred contact method: ${data.preferredContact || "No preference"}`,
+      "",
+      "Message:",
+      data.message,
+    ].join("\n");
+
+    window.location.href = `mailto:${RECIPIENT}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    toast.success("Your email app should now open. If it doesn't, you can email apex5colchester@gmail.com directly.");
+    form.reset();
+    setService("");
+    setPreferredContact("");
+    setConsent(false);
   };
 
   return (
@@ -137,8 +171,8 @@ const Contact = () => {
 
                 <div>
                   <Label htmlFor="service">Service needed *</Label>
-                  <Select name="service" required>
-                    <SelectTrigger className="mt-1">
+                  <Select value={service} onValueChange={setService} required>
+                    <SelectTrigger className="mt-1" id="service">
                       <SelectValue placeholder="Choose a service" />
                     </SelectTrigger>
                     <SelectContent>
@@ -151,8 +185,8 @@ const Contact = () => {
 
                 <div>
                   <Label htmlFor="preferred_contact">Preferred contact method</Label>
-                  <Select name="preferred_contact">
-                    <SelectTrigger className="mt-1">
+                  <Select value={preferredContact} onValueChange={setPreferredContact}>
+                    <SelectTrigger className="mt-1" id="preferred_contact">
                       <SelectValue placeholder="How should we reply?" />
                     </SelectTrigger>
                     <SelectContent>
@@ -189,9 +223,13 @@ const Contact = () => {
                   </Label>
                 </div>
 
-                <Button type="submit" size="lg" disabled={submitting} className="w-full sm:w-auto">
-                  {submitting ? "Sending..." : "Send message"}
+                <Button type="submit" size="lg" className="w-full sm:w-auto">
+                  Open in email app
                 </Button>
+
+                <p className="text-sm text-muted-foreground">
+                  This will open your email app with the enquiry pre-filled. You can then send it when you're ready.
+                </p>
               </form>
 
               {/* Disclaimer */}
